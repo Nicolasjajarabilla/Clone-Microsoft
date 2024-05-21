@@ -1,0 +1,182 @@
+.shop-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
+.xbox-microsoft{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 400px;
+    height: auto;
+}
+
+.microsoft-one{
+    box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.3);
+}
+
+.microsoft-one img{
+    width: 400px;
+    height: 210px;
+}
+
+.microsoft-one h1{
+    text-align: start;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.microsoft-one p{
+    padding: 0px 20px;
+    text-align: start;
+}
+
+.microsoft-one button{
+    margin-top: 4vh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.microsoft-one button:hover{
+    background-color: rgb(0, 66, 116);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.xbox-series-x{
+    box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.3);
+}
+
+.xbox-series-x img{
+    width: 400px;
+    height: 210px;
+}
+
+.xbox-series-x h1{
+    text-align: start;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.xbox-series-x p{
+    padding: 0px 20px;
+    text-align: start;
+}
+
+.xbox-series-x button{
+    margin-top: 8vh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.xbox-series-x button:hover{
+    background-color: rgb(0, 66, 116);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.xbox-game-pass{
+    box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.3);
+}
+
+.xbox-game-pass img{
+    width: 400px;
+    height: 210px;
+}
+
+.xbox-game-pass h1{
+    text-align: start;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.xbox-game-pass p{
+    padding: 0px 20px;
+    text-align: start;
+}
+
+.xbox-game-pass button{
+    margin-top: 2vh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.xbox-game-pass button:hover{
+    background-color: rgb(0, 66, 116);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.microsoft-365{
+    box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.3);
+}
+
+.microsoft-365 img{
+    width: 400px;
+    height: 210px;
+}
+
+.microsoft-365 h1{
+    text-align: start;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.microsoft-365 p{
+    padding: 0px 20px;
+    text-align: start;
+}
+
+.microsoft-365 button{
+    margin-top: 0vh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.microsoft-365 button:hover{
+    background-color: rgb(0, 66, 116);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#six-person{
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 103, 184);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#six{
+    font-size: 14px;
+}
+
+
+

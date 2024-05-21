@@ -1,0 +1,43 @@
+.carousel-container {
+    position: relative; 
+    margin: 0 auto;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.indicators i{
+    font-size: 16px;
+    color: black;
+}
+
+.indicators button{
+    background: transparent;
+    border: none;
+}
+
+

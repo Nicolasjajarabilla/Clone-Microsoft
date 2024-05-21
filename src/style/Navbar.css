@@ -1,0 +1,104 @@
+nav{
+    display: flex;
+    margin: 2vh 8vw;
+    width: auto;
+    height: auto;
+}
+
+.logo{
+    padding-right: 1vw;
+}
+
+.logo img{
+    width: 108px;
+    height: 23px;
+}
+
+.content-navbar{
+    width: 50vw;
+    padding-left: 20px;
+}
+
+.content-navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    margin: 3px 0px;
+    gap: 30px;
+    padding: 0;
+}
+
+.content-navbar li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.btn-navbar{
+    margin: 0px 10px;
+    padding-left: 50px;
+}
+
+.btn-navbar button{
+    padding: 0px 10px;
+    border: none;
+    background-color: transparent;
+}
+.btn-navbar button:hover{
+    cursor: pointer;
+}
+
+#search{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#cart{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+
+.dropdwon-content{
+    display: flex;
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+    top: 5%;
+    right: 15%;
+    gap: 50px;
+    padding: 0px 5vw;
+    z-index: 1;
+}
+
+.dropdwon-content ul{
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.software li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}
+.ti li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}
+.empresas li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}
+.Otros li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}
+.pcs-devs li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}
+.Enterteinment li:hover{
+    text-decoration: underline 2px black;
+    transition: 0.3s ease-in-out;
+}

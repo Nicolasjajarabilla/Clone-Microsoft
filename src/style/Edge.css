@@ -1,0 +1,52 @@
+.edge-container{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.edge-container img {
+   vertical-align: middle;
+   line-height: 24px;
+   width: 1596px;
+   height: 600px;
+   position: relative;
+}
+
+.edge-content{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-10vw, 135vh);
+    background-color: white;
+    width: 30vw;
+    height: auto;
+}
+
+.edge-content h1{
+    text-align: start;
+    padding: 0px 30px;
+    font-weight: 500;
+}
+
+.edge-content p{
+    width: auto;
+    padding: 0px 30px;
+    text-align: start;
+}
+
+.edge-content button{
+    margin-top: 1vh;
+    margin-bottom: 30px;
+    margin-right: 20vw;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+
+.edge-content button:hover{
+    background-color: rgb(0, 66, 116);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
